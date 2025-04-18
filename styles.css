@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --laranja-claro: #000000;
+}
+
+
+body {
+    font-size: 1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url(img/imagem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-image: url(img/fundopapel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.nav-link {
+    color: #000000;
+    font-weight: 1000;
+}
+
+.inicio-fundo {
+    /* aula 3 */
+    background-image: url('img/4965007.jpg');
+    /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width: 100%;
+    height: 600px;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+/* posicionamento para a imagem à direita */
+.img-inicio {
+    position: absolute;
+    right: 0;
+    top: 18rem;
+    width: 45rem;
+    height: auto;
+}
+
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 0.5rem;
+}
+
+
+.botao-inicio {
+    background-image: url(img/fundo.png);
+    background-size:500px;
+    border-radius: 10px;
+    border: none;
+    width: 14em;
+    /* Convertido para em aumenta o tamanho da fonte por tabela*/
+    height: 3em;
+    /* Convertido para em */
+    align-content: center;
+
+}
+
+.display-4 {
+    text-shadow: -5px 5px var(--laranja-claro);
+}
+
+
+#tropicalia {
+    position: relative;
+    padding-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: url('img/flor.png') center no-repeat;
+    background-size:cover;
+    background-image:url(img/outra.jpg);
+    /* Ajuste o tamanho conforme necessário */
+}
+
+#tropicalia .container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    z-index: 1;
+    /* Garante que o conteúdo fica acima das imagens do background */
+}
+
+
+h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    font-style: normal;
+    color: var(--laranja-claro);
+}
+
+#galeria {
+    background-image: url(img/image\(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 3rem;
+    margin-bottom: 4rem;
+
+}
+
+
+#contato {
+    background-image:linear-gradient(rgb(247, 218, 191),rgb(196, 167, 141));
+    background-size: cover;
+    padding: 3rem 0;
+    /* Espaçamento interno para a seção de contato */
+
+}
+
+.formulario {
+    background-color:rgb(245, 174, 152);
+    padding: 3rem;
+    /* Espaçamento interno dentro do formulário */
+    border-radius: 10px;
+    /* Borda arredondada para o formulário */
+    box-shadow: 0 0 10px rgba(31, 31, 31, 0.1);
+    /* Sombra suave para destacar o formulário */
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color: #000000;
+    border: none;
+    font-weight: bold;
+}
+
+/* chama classe do bootstrap para modificar a cor */
+.form-control {
+    background-color: #000000;
+}
+
+.final-fundo {
+    /* aula 3 */
+    background-image: url('img/Imagemfinal.webp');
+    /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width: 35%;
+    height: 800px;
+    padding: 50px;
+    margin: 0 auto;
+}
